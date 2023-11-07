@@ -50,6 +50,11 @@ done
 
 FinishSuccess=1
 
+if [[ ( ! ${bwa_ref} =~ ^/ ) && ( ! ${bwa_ref} =~ ^~ ) ]]
+then
+    bwa_ref=$( echo -e "${PreDir}/${bwa_ref}" )
+fi
+
 if [[ ! -d 03.GroupAndRefine ]]
 then
     mkdir 03.GroupAndRefine
