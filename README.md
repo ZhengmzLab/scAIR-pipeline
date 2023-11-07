@@ -1,4 +1,4 @@
-# scAIR-pipeline is specifically coded for scAIR (single cell ATAC/Interactome/RNA) methods, based on ScSmOP.
+# scAIR-pipeline is specifically coded by Kai Jing for scAIR (single cell ATAC/Interactome/RNA) methods, based on ScSmOP.
 
 ---
 
