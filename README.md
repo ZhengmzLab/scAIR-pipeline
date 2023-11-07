@@ -6,6 +6,7 @@ Kai Jing, Yewen Xu, Yang Yang, Pengfei Yin, Duo Ning, Guangyu Huang, Yuqing Deng
 
 -----------
 ## scAIR pipeline description
+
 ### scAIR read structure
 **RNA part:**
 
@@ -20,6 +21,13 @@ Kai Jing, Yewen Xu, Yang Yang, Pengfei Yin, Duo Ning, Guangyu Huang, Yuqing Deng
 
 *RNA 10× Barcode whitelist: 10× Genomics Single Cell Multiome ATAC + Gene Expression RNA barcode (737K-arc-v1-scrna.txt)
 ATAC 10× Barcode whitelist: 10× Genomics Single Cell Multiome ATAC + Gene Expression ATAC barcode reverse complementary (reverse complementary of 737K-arc-v1-scatac.txt).*
+
+### Run
+
+Processing scAIR-seq, specify FASTQ through -1 DNA R1 -2 DNA R2 -3 DNA R3 -4 RNA R1 -5 RNA R2
+```
+  ~/ScSmOP/scsmop.sh -t scair -1 R1.fq.gz -2 R2.fq.gz -3 R3.fq.gz -4 R4.fq.gz -5 R5.fq.gz -l 3000 -r ~/RefGenome/refdata-gex-GRCh38-2020-A-STAR/ -b ~/RefGenome/bwa_dm3_index/dm3.fa -s -s ~/ScSmOP/ChromSize/hg38.size.txt
+```
 
 ### Process
 
