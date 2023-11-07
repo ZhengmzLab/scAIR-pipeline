@@ -11,12 +11,15 @@ Kai Jing, Yewen Xu, Yang Yang, Pengfei Yin, Duo Ning, Guangyu Huang, Yuqing Deng
 **RNA part:**
 
   Read 1: 10× Barcode(16bp) - UMI(12bp) - Additional base(122bp)
+  
   Read 2: cDNA fragment(150bp)
 
 **ATAC part:**
 
   Read 1: DNA fragment(150bp)
+
   Read 2: Space(8bp) - 10× Barcode(16bp)
+
   Read 3: DNA fragment(150bp)
 
 *RNA 10× Barcode whitelist: 10× Genomics Single Cell Multiome ATAC + Gene Expression RNA barcode (737K-arc-v1-scrna.txt)
