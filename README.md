@@ -1,11 +1,11 @@
-# scAIR pipeline is specifically coded for scAIR (single cell ATAC/Interactome/RNA) methods, based on ScSmOP.
+# scAIR-pipeline is specifically coded for scAIR (single cell ATAC/Interactome/RNA) methods, based on ScSmOP.
 
 ---
 
 Kai Jing, Yewen Xu, Yang Yang, Pengfei Yin, Duo Ning, Guangyu Huang, Yuqing Deng, Gengzhan Chen, Guoliang Li, Simon Zhongyuan Tian, Meizhen Zheng, **ScSmOP: a universal computational pipeline for single-cell single-molecule multiomics data analysis**, Briefings in Bioinformatics, Volume 24, Issue 6, November 2023, bbad343, https://doi.org/10.1093/bib/bbad343
 
 -----------
-## scAIR pipeline description
+## scAIR-pipeline description
 
 ### scAIR read structure
 **RNA part:**
