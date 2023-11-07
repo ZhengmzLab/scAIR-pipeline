@@ -55,6 +55,7 @@ Barcodes were identified using ScSmOP ***BARP idb*** with config file ‘10x_sca
   - 02.ReadAlign
   - 03.GroupAndRefine
     - De-duplicated interaction pairs ([pairs format](https://github.com/4dn-dcic/pairix/blob/master/pairs_format_specification.md))
+    
     SCAIR.Dedup.Pairs.gz
       ```
       ## pairs format v1.0.0
@@ -85,6 +86,7 @@ Barcodes were identified using ScSmOP ***BARP idb*** with config file ‘10x_sca
       A00174:200:HJMHMDSX7:3:1104:21187:15139|||BC:AGGTTCCTGACCTTGG|||CELL_1165	21	16761781	21	18205382	-	-	UR	pair	16761781	18205382	77	103CELL_1165	nondup
       ```
     - De-duplicated fragments including pairs (marked ligation type column as pair)
+    
     SCAIR.Dedup.Frags.gz
       ```
       ## pairs format v1.0.0
@@ -129,12 +131,14 @@ Barcodes were identified using ScSmOP ***BARP idb*** with config file ‘10x_sca
       A00174:200:HJMHMDSX7:3:1101:6325:1642|||BC:ATGACTTTGAAACTGG|||CELL_982	!	0	21	13156201	-	-	MU	self	0	13156201	150	150	CELL_982	nondup
       ```
     - De-duplicated fragment BAM file (including pair marked with tag LT [ligate type])
+
     SCAIR.PS.Dedup.bam
       ```
       A00174:200:HJMHMDSX7:3:1101:2989:1000|||BC:TAATCCGTGTGACCCG|||CELL_1    77      *       0       0       *       *       0       0       NCTGAAGGATTTTCAGCATTTGGGTTATTGAACTGATCATTTGCCCATCATTAAGAGGGTTGTCTATTAATCTTTCCGTTGAACAGTCTTTGCTTCTGGATCTTAAACTTTTAATTAAGAAAGTATGTAAGTTATTAGCTATATTGGTCA #FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFF:FFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFF  AS:i:0  XS:i:0  Yt:Z:NN LT:A:N
       A00174:200:HJMHMDSX7:3:1101:2989:1000|||BC:TAATCCGTGTGACCCG|||CELL_1    141     *       0       0       *       *       0       0       ATGTAAGATAGGATACAAGTTTGGTCTTTTCTTCTCGATTGAATATCTTTTGTATTCGAAACCGGTAAGATTGCAGATGATTTGCACATAATGGTGACTAAACCAGTTGGTAAATACCGACCTTTAACCACGAAAATGATTCTGATTCAC  FFFFF:FFFFFFFFFFFFFF:FFFFFFFFFF:FFFFFF,FFFF:FFFFF:FFFFFFFFFFFF,FF:FFFF:FFFFFFFFFF:FFFFFFF::FFFFFFFFFFFFFFF::FFFFFFFFFFFFFFFF:FFF,FF:,FFFFF:FFF:FFFFFFF  AS:i:0  XS:i:0  Yt:Z:NN LT:A:N
       ```
     - DNA Cell ID and RNA Cell ID correlate table
+    
     SCAIR.RNA.DNA.correlate.tsv
       ```
       #/RNAResult/01.BarcodeIden/SCAIR.CELL	/01.BarcodeIden/SCAIR.CELL
