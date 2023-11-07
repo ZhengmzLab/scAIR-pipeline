@@ -123,5 +123,5 @@ Barcodes were identified using ScSmOP ***BARP idb*** with config file ‘10x_sca
     ```
   - 04.QualityAssess
 
-Files not mentioned here can found detailed description at [ScSmOP wiki](https://github.com/ZhengmzLab/ScSmOP/wiki/ScSmOP-Standard-Output).
+Files' detailed description not mentioned here can found at [ScSmOP wiki](https://github.com/ZhengmzLab/ScSmOP/wiki/ScSmOP-Standard-Output).
 
