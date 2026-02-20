@@ -6,7 +6,7 @@
 Code: Kai Jing
 
 ---
-Tian, Simon Zhongyuan#,*; Yang, Yang#; Ning, Duo#; Fang, Ke#; Jing, Kai; Huang, Guangyu; Xu, Yewen; Yin, Pengfei; Huang, Haibo; Chen, Gengzhan; Deng, Yuqing; Zhang, Shaohong; Zhang, Zhimin; Chen, Zhenxia; Gao, Tong; Chen, Wei; Li, Guoliang; Tian, Ruilin; Ruan, Yijun*; Li, Yiming*; Zheng, Meizhen*. 3D chromatin structures associated with ncRNA roX2 for hyperactivation and coactivation across the entire X chromosome. Science Advances, 2024, [10(30): eado5716](https://www.science.org/doi/10.1126/sciadv.ado5716).
+Tian, Simon Zhongyuan#,*; Yang, Yang#; Ning, Duo#; Fang, Ke#; Jing, Kai; Huang, Guangyu; Xu, Yewen; Yin, Pengfei; Huang, Haibo; Chen, Gengzhan; Deng, Yuqing; Zhang, Shaohong; Zhang, Zhimin; Chen, Zhenxia; Gao, Tong; Chen, Wei; Li, Guoliang; Tian, Ruilin; Ruan, Yijun*; Li, Yiming*; Zheng, Meizhen*. **3D chromatin structures associated with ncRNA roX2 for hyperactivation and coactivation across the entire X chromosome**. Science Advances, 2024, [10(30): eado5716](https://www.science.org/doi/10.1126/sciadv.ado5716).
 
 Kai Jing, Yewen Xu, Yang Yang, Pengfei Yin, Duo Ning, Guangyu Huang, Yuqing Deng, Gengzhan Chen, Guoliang Li, Simon Zhongyuan Tian, Meizhen Zheng, **ScSmOP: a universal computational pipeline for single-cell single-molecule multiomics data analysis**, Briefings in Bioinformatics, Volume 24, Issue 6, November 2023, bbad343, https://doi.org/10.1093/bib/bbad343
 
